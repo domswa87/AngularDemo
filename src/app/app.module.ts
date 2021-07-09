@@ -8,8 +8,9 @@ import { ChildComponent } from './input-output/child/child.component';
 import { ParentComponent } from './input-output/parent/parent.component';
 import { NgModelCaseComponent } from './ng-model-case/ng-model-case.component';
 import { FormsModule } from '@angular/forms';
-import { ClickCounter1Component } from './services/click-counter1/click-counter1.component';
-import { ClickCounter2Component } from './services/click-counter2/click-counter2.component';
+import { Counter1Component } from './services/counter1/counter1.component';
+import { Counter2Component } from './services/counter2/counter2.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { ClickCounter2Component } from './services/click-counter2/click-counter2
     ChildComponent,
     ParentComponent,
     NgModelCaseComponent,
-    ClickCounter1Component,
-    ClickCounter2Component
+    Counter1Component,
+    Counter2Component,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

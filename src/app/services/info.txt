@@ -1,0 +1,9 @@
+Czas na:
+
+https://www.youtube.com/watch?v=JZyoNqxWt7o&list=PLpzwMkmxJDUyD-UTGQXuevw0YOPgvroPL&index=53
+
+
+Serwis jest wstrzykiwany do komponentów - i komponenty mogą korzystać z jego metod
+Ważne jest miejsce w którym użyjemy "providers: [CounterService]"
+ - jeżeli uzyjemy tego 2 razy czyli w każdym komponencie to powstaną 2 instancje serwisu
+ - jeżeli użyjemy tego w App.Component to componenty dzieci dostaną tą samą instancję serwisu

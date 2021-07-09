@@ -1,0 +1,7 @@
+<div>
+    <h3>Parent Component</h3>
+    <button (click)="onClickMethod()">Parent Button</button>
+    <p>{{counterParent}}</p>
+    <p>{{sumParent}}</p>
+    <app-child [inputChild1]="counterParent" (outputChild1)="receiveEventMethod($event)"></app-child>
+</div>

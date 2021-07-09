@@ -2,12 +2,13 @@
   <h3>Navigation</h3>
   <button (click)="setStep1()">1. Input Output</button>
   <button (click)="setStep2()">2. NgModelCase</button>
-  <button (click)="setStep3()">3. Empty</button>
+  <button (click)="setStep3()">3. Services</button>
 </div>
 
 <div>
   <ng-container [ngSwitch]="projectStep">
     <app-input-output *ngSwitchCase="1"></app-input-output>
     <app-ng-model-case *ngSwitchCase="2"></app-ng-model-case>
+    <app-services *ngSwitchCase="3"></app-services>
   </ng-container>
 </div>

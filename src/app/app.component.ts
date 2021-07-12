@@ -25,5 +25,9 @@ export class AppComponent {
     this.projectStep = 3;
   }
 
+  setStep4() {
+    this.projectStep = 4;
+  }
+
 
 }

@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { Counter1Component } from './services/counter1/counter1.component';
 import { Counter2Component } from './services/counter2/counter2.component';
 import { ServicesComponent } from './services/services.component';
+import { StyleComponent } from './style/style.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ServicesComponent } from './services/services.component';
     NgModelCaseComponent,
     Counter1Component,
     Counter2Component,
-    ServicesComponent
+    ServicesComponent,
+    StyleComponent
   ],
   imports: [
     BrowserModule,

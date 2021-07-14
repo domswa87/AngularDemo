@@ -1,17 +1,50 @@
-div{
+
+
+div.screen{
+    height: 1000px;
+    background-color: lightblue;
+    border: 3px solid red;
+  }
+
+div.rowTop{
+    background-color: grey;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+div.left{
+    background-color: lightgreen;
+    border: 3px solid black;
+    height: 400px;
+    min-width: 400px;
+}
+
+div.right{
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+    height: 400px;
+    min-width: 400px;
+}
+
+div.desc{
+    background-color:darkgrey;
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 30px;
+}
+
+div.down{
+    background-color: lightpink;
+    border: 3px solid black;
+    display: flex;
+    min-height: 100px;
+}
+
+
    
-    #div1{
-        background-color: darkgoldenrod;
-    }
-
-    div#div2ID{
-        background-color: green;
-    }
-
-    float: left;
-    width: 100px;
-}
-
-div div div{
-    background-color: hotpink;
-}

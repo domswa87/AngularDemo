@@ -12,6 +12,7 @@ import { Counter1Component } from './services/counter1/counter1.component';
 import { Counter2Component } from './services/counter2/counter2.component';
 import { ServicesComponent } from './services/services.component';
 import { StyleComponent } from './style/style.component';
+import { UnitTestsComponent } from './unit-tests/unit-tests.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StyleComponent } from './style/style.component';
     Counter1Component,
     Counter2Component,
     ServicesComponent,
-    StyleComponent
+    StyleComponent,
+    UnitTestsComponent
   ],
   imports: [
     BrowserModule,
